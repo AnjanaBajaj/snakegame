@@ -4,7 +4,7 @@ function init(){
 	pen=canvas.getContext('2d');
 	cs=66;
 	game_over = false;
-	score=5;
+	score=0;
 	food=getRandomFood();
 	//create an image object
 	food_img = new Image();
